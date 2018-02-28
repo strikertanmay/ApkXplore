@@ -1,2 +1,2 @@
-# conference
-Responsive HTML5 Bootstrap 3 template for Event Site
+# Xplore
+Responsive web page for Xplore(Tech Tour Event of Aparoksha)
