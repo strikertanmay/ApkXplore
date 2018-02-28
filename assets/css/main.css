@@ -1,14 +1,11 @@
-/*
+/* 
  * 1. Google Font
  */
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700);
-/*
-=======
 @import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700');
 @import url('https://fonts.googleapis.com/css?family=Merienda');
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
-/*
->>>>>>> upstream/master
+/* 
  * 2.0 Global Style
  */
 
@@ -185,10 +182,10 @@ ul li {
   text-align: center;
 }
 
-/*
+/* 
  * 3.0 Helper Class
  */
-/*
+/* 
  * 3.1 Helper Class: font-weight
  */
 .font-300 {
@@ -203,7 +200,7 @@ ul li {
   font-weight: 700;
 }
 
-/*
+/* 
  * 3.2 Helper Class: margin
  */
 .mt0 {
@@ -218,14 +215,14 @@ ul li {
   margin-top: 20px;
 }
 
-/*
+/* 
  * 3.3 Helper Class: list
  */
 .list-arrow-right li::before {
   content: "\f3d3";
 }
 
-/*
+/* 
  * 3.4 Helper Class: button
  */
 .btn-white {
@@ -246,7 +243,7 @@ ul li {
   background-color: #000;
 }
 
-/*
+/* 
  * 3.5 Helper Class: background
  */
 .bg-image, .bg-image-1, .bg-image-2 {
@@ -288,7 +285,7 @@ ul li {
     text-align: left;
   }
 }
-/*
+/* 
  * 4.0 Navigation
  */
 .navbar-custom {
@@ -354,7 +351,7 @@ ul li {
   padding:20px;
 }
 
-/*
+/* 
  * 5.0 Site Header
  */
 .site-header {
@@ -413,11 +410,11 @@ ul li {
     margin-left: 0;
   }
 }
-/*
+/* 
  * 6.0 Section
  */
-/*
- * 6.1 Section: About
+/* 
+ * 6.1 Section: About 
  */
 .about .section-title {
   margin: 0 0 25px;
@@ -426,7 +423,7 @@ ul li {
   margin-bottom: 25px;
 }
 
-/*
+/* 
  * 6.2 Section: Facts
  */
 .facts i {
@@ -439,7 +436,7 @@ ul li {
   font-weight: 400;
 }
 
-/*
+/* 
  * 6.3 Section: Speaker
  */
 .speaker {
@@ -459,10 +456,10 @@ ul li {
   opacity: .7;
 }
 
-/*
+/* 
  * 6.4 Section: Registration & Pricing
  */
-/*
+/* 
  * 6.5 Section: Contribution
  */
 .contribution {
@@ -470,15 +467,12 @@ ul li {
   color: #fff;
 }
 
-/*
+/* 
  * 6.6 Section: Schedule
  */
 .schedule-box {
   position: relative;
-  background: #FC5C7D;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background-color: #000;
   color: #fff;
   text-align: center;
   padding: 40px 20px;
@@ -494,7 +488,7 @@ ul li {
   border: 1px solid #fff;
 }
 
-/*
+/* 
  * 6.7 Section: Schedule
  */
 .partner {
@@ -537,7 +531,7 @@ ul li {
   background: url(../images/partner/partner-8.png) no-repeat center center/contain;
 }
 
-/*
+/* 
  * 6.8 Section: FAQ
  */
 .faq .panel-heading {
@@ -574,7 +568,7 @@ ul li {
   padding: 15px 15px 15px 35px;
 }
 
-/*
+/* 
  * 6.9 Section: photos
  */
 .grid {
@@ -626,7 +620,7 @@ ul li {
     width: 25%;
   }
 }
-/*
+/* 
  * 7.0 Site-footer
  */
 .site-footer {
