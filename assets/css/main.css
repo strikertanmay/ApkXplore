@@ -638,3 +638,7 @@ ul li {
   height: 30px;
   padding-top: 5px;
 }
+.schedule-box {
+    height: 310px;
+    width: 290px;
+}
