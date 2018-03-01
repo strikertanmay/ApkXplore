@@ -22,13 +22,13 @@ body {
 }
 .s1{
   font-size:130px;
-   font-family: 'Cinzel Decorative'; 
+   font-family: 'Cinzel Decorative';
 }
 .s2{
   font-size:60px;
-    font-family: 'Cinzel Decorative';  
+    font-family: 'Cinzel Decorative';
    /* font-family: 'Orbitron', sans-serif; */
-    
+
 }
 .s3{
   font-size: 30px;
@@ -644,9 +644,9 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 }
 .site-footer .social-block li a {
   color: 	#FFFF00;
-  width: 50px !important;
-height: 50px !important;
-font-size: 30px !important;
+  width: 40px !important;
+height: 40px !important;
+font-size: 20px !important;
 } */
 .site-footer .social-block li a:hover, .site-footer .social-block li a:focus {
   opacity: 0.8;
