@@ -1,11 +1,11 @@
-/* 
+/*
  * 1. Google Font
  */
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700);
 @import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700');
 @import url('https://fonts.googleapis.com/css?family=Merienda');
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
-/* 
+/*
  * 2.0 Global Style
  */
 
@@ -182,10 +182,10 @@ ul li {
   text-align: center;
 }
 
-/* 
+/*
  * 3.0 Helper Class
  */
-/* 
+/*
  * 3.1 Helper Class: font-weight
  */
 .font-300 {
@@ -200,7 +200,7 @@ ul li {
   font-weight: 700;
 }
 
-/* 
+/*
  * 3.2 Helper Class: margin
  */
 .mt0 {
@@ -215,14 +215,14 @@ ul li {
   margin-top: 20px;
 }
 
-/* 
+/*
  * 3.3 Helper Class: list
  */
 .list-arrow-right li::before {
   content: "\f3d3";
 }
 
-/* 
+/*
  * 3.4 Helper Class: button
  */
 .btn-white {
@@ -243,7 +243,7 @@ ul li {
   background-color: #000;
 }
 
-/* 
+/*
  * 3.5 Helper Class: background
  */
 .bg-image, .bg-image-1, .bg-image-2 {
@@ -285,7 +285,7 @@ ul li {
     text-align: left;
   }
 }
-/* 
+/*
  * 4.0 Navigation
  */
 .navbar-custom {
@@ -351,7 +351,7 @@ ul li {
   padding:20px;
 }
 
-/* 
+/*
  * 5.0 Site Header
  */
 .site-header {
@@ -410,11 +410,11 @@ ul li {
     margin-left: 0;
   }
 }
-/* 
+/*
  * 6.0 Section
  */
-/* 
- * 6.1 Section: About 
+/*
+ * 6.1 Section: About
  */
 .about .section-title {
   margin: 0 0 25px;
@@ -423,7 +423,7 @@ ul li {
   margin-bottom: 25px;
 }
 
-/* 
+/*
  * 6.2 Section: Facts
  */
 .facts i {
@@ -436,7 +436,7 @@ ul li {
   font-weight: 400;
 }
 
-/* 
+/*
  * 6.3 Section: Speaker
  */
 .speaker {
@@ -456,10 +456,10 @@ ul li {
   opacity: .7;
 }
 
-/* 
+/*
  * 6.4 Section: Registration & Pricing
  */
-/* 
+/*
  * 6.5 Section: Contribution
  */
 .contribution {
@@ -467,12 +467,15 @@ ul li {
   color: #fff;
 }
 
-/* 
+/*
  * 6.6 Section: Schedule
  */
 .schedule-box {
   position: relative;
-  background-color: #000;
+  background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   color: #fff;
   text-align: center;
   padding: 40px 20px;
@@ -488,7 +491,7 @@ ul li {
   border: 1px solid #fff;
 }
 
-/* 
+/*
  * 6.7 Section: Schedule
  */
 .partner {
@@ -531,7 +534,7 @@ ul li {
   background: url(../images/partner/partner-8.png) no-repeat center center/contain;
 }
 
-/* 
+/*
  * 6.8 Section: FAQ
  */
 .faq .panel-heading {
@@ -568,7 +571,7 @@ ul li {
   padding: 15px 15px 15px 35px;
 }
 
-/* 
+/*
  * 6.9 Section: photos
  */
 .grid {
@@ -620,14 +623,13 @@ ul li {
     width: 25%;
   }
 }
-/* 
+/*
  * 7.0 Site-footer
  */
 .site-footer {
   background-color: #000;
   color: #fff;
-  text-align: center;
-  padding: 30px 0;
+  padding: 10px 0;
 }
 .site-footer .site-info {
   font-weight: 400;
@@ -637,8 +639,11 @@ ul li {
   color: #fff;
 }
 .site-footer .social-block li a {
-  color: #fff;
-}
+  color: 	#FFFF00;
+  width: 50px !important;
+height: 50px !important;
+font-size: 30px !important;
+} */
 .site-footer .social-block li a:hover, .site-footer .social-block li a:focus {
   opacity: 0.8;
 }
@@ -649,4 +654,24 @@ ul li {
 .schedule-box {
     height: 310px;
     width: 290px;
+}
+.fa-facebook{
+  color: #ffffff;
+    background-color: transparent;
+}
+.fa-envelope{
+   color: #ffffff;
+    background-color: transparent;
+}
+.fa-twitter{
+   color: #ffffff;
+    background-color: transparent;
+}
+.fa-medium{
+   color: #ffffff;
+    background-color: transparent;
+}
+.fa-instagram{
+   color: #ffffff;
+    background-color: transparent;
 }
