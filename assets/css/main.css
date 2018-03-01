@@ -21,27 +21,27 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 .s1{
-  font-size:160px;
+  font-size:140px;
    font-family: 'Cinzel Decorative'; 
 }
 .s2{
-  font-size:90px;
+  font-size:70px;
     font-family: 'Cinzel Decorative';  
    /* font-family: 'Orbitron', sans-serif; */
     
 }
 .s3{
-  font-size: 35px;
+  font-size: 30px;
   text-align: start;
 }
 .s4{
   font-style: italic;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .s5{
   text-align: right;
-  font-size: 30px;
+  font-size: 20px;
 }
 .s6{
   font-size: 1.17em;
