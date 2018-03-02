@@ -19,6 +19,8 @@ body {
   line-height: 1.6;
   position: relative;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+
 }
 .s1{
   font-size:130px;
@@ -644,8 +646,8 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
 }
 .site-footer .social-block li a {
   color: 	#FFFF00;
-  width: 40px !important;
-height: 40px !important;
+  width: 45px !important;
+height: 45px !important;
 font-size: 20px !important;
 } */
 .site-footer .social-block li a:hover, .site-footer .social-block li a:focus {
